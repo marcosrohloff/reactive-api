@@ -1,0 +1,12 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/teste
+    username: postgres
+    password: Android9
+  flyway:
+    user: postgres
+    password: Android9
+    url: jdbc:postgresql://localhost:5432/teste
+    server:
+      error:
+        include-stacktrace=never:
