@@ -1,12 +1,12 @@
 spring:
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/teste
+    url: r2dbc:postgresql://localhost:5432/dbreactive
     username: postgres
     password: Android9
   flyway:
     user: postgres
     password: Android9
-    url: jdbc:postgresql://localhost:5432/teste
+    url: jdbc:postgresql://localhost:5432/dbreactive
     server:
       error:
         include-stacktrace=never:
