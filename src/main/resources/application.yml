@@ -2,10 +2,14 @@ spring:
   r2dbc:
     url: r2dbc:postgresql://localhost:5432/dbreactive
     username: postgres
-    password: Android9
+    password: android9
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
   flyway:
     user: postgres
-    password: Android9
+    password: android9
     url: jdbc:postgresql://localhost:5432/dbreactive
     server:
       error:
